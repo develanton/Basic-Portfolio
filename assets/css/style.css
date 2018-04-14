@@ -1,6 +1,6 @@
 body{
-    padding: 0px;
-    margin-left: 100px;
+    padding-left: 100px;
+    margin-left: 0px;
     color: black;
 }
 
@@ -11,18 +11,36 @@ header{
     position: fixed; left: 0px; right: 0; height: 30px;top:0px;
 }
 
-h1{
+#homes{
     background-color: teal;
     color: white;
+    width: 30%;
     padding: 25px;
-    margin: 25px;
-    margin-right: 750px;
-    margin-left: 0px;
-    background-size: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
     
 }
+
+#rapper{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
+}
+
+#menu1{
+    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 60%;
+
+}
+
+#menu2{
+    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 70%;
+}
+#menu3{
+    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 80%;
+}
+
 
 h2{
     color: teal;
@@ -47,4 +65,5 @@ footer{
 section{
     margin-left: 0px;
 }
+
 
