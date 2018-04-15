@@ -1,5 +1,7 @@
 body{ 
     margin-left: 0px;
+    background-image: url("/Users/Antonio/Basic-Portfolio/assets/images/dust_scratches.png");
+    
 }
 
 header{
@@ -7,27 +9,30 @@ header{
     padding-left: 10%;
     border-bottom-style: solid;
     border-bottom-color: #777777;
+    background-color: #fff;
     
 }
+h1{
+   width: 30%;
+   height: 50px;
+   left: 95;
+   top: -80px;
+   right: 403;
+   bottom: 100px;
+   background-color: teal;
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   padding: 25px;
+   margin-bottom: 0px;
+   margin-top: -10px;
+}
 section{
-    
-    width: 100%;
-    height: 80%;
     position: absolute;
     background-image: url("/Users/Antonio/Basic-Portfolio/assets/images/dust_scratches.png");
     
 }
 
-#homes{
-    background-color: teal;
-    color: white;
-    width: 30%;
-    padding: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;   
-}
 
 .miss1{
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +40,7 @@ section{
 }
 
 #menu1{
-    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 60%;
+    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 50%;
     color: #777777;
     padding: 10px;
     text-align: center;
@@ -46,37 +51,56 @@ section{
 }
 
 #menu2{
-    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 68%;
+    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 60%;
     color: #777777;
-    border-left-style: solid;
+    border-left-style: 2px, solid #777777;
     padding:10px;
     height: 6px;
-    border-right-style: solid;
+    border-right-style: 1px, solid #777777;
     width: 7%;
     text-decoration: none;
+    
 }
 #menu3{
     color: #777777;
-    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 78%;
+    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 70%;
     padding:10px;
     text-decoration: none;
 }
 
 
 h2{
-    width: 960px;
+    width: 930px;
+    height: 80px;
+    right: 1055px;
+    bottom: 662px;
+    margin-left:142px;
+    margin-bottom: 0px;
     color: teal;
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 80%;
-    
-    
+    z-index: 0;
+    float: left;
+    font-size: xx-large;
+    padding-right: 0px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+    z-index: 2;
+    border-bottom-width: 2px;
 }
 
 p{
+    
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
-    margin-top: 0px;
+    margin-top: 105px;
+    margin-left: 142px;
+    margin-right: 100px;
+    width: 718px;
+    height:600px;    
+
 }
 
 footer{
@@ -85,18 +109,30 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     position: fixed; bottom: 0px;right: 0px;left: 0;height: 20px;
     text-align: center; padding: 20px;
+    z-index: 1;
 
     
 }
 
 #killa{
-    padding-left: 10%; 
+
+    
     background-color: #ffffff;
-    width: 960px; 
     z-index: 1;
+   
+    
+    
 
 }
 
 #selec{
-    margin: 10px;
+    margin: 142px;
+    background: #fff;
+
+    
+}
+
+#foto{
+    margin-left:00px;
+    float: left;
 }
