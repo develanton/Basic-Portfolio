@@ -11,7 +11,7 @@ header{
 }
 section{
     
-    width: 960px;
+    width: 100%;
     height: 80%;
     position: absolute;
     background-image: url("/Users/Antonio/Basic-Portfolio/assets/images/dust_scratches.png");
@@ -64,13 +64,19 @@ section{
 
 
 h2{
+    width: 960px;
     color: teal;
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80%;
+    
+    
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    margin-top: 0px;
 }
 
 footer{
@@ -84,7 +90,13 @@ footer{
 }
 
 #killa{
-    padding-left: 10%;  
+    padding-left: 10%; 
+    background-color: #ffffff;
+    width: 960px; 
+    z-index: 1;
+
 }
 
-
+#selec{
+    margin: 10px;
+}
