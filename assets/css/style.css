@@ -14,7 +14,7 @@ header{
 }
 h1{
    width: 30%;
-   height: 50px;
+   height: 40px;
    left: 95;
    top: -80px;
    right: 403;
@@ -40,39 +40,43 @@ section{
 }
 
 #menu1{
-    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 50%;
+    position: absolute; top: 55px;right: 60%;bottom: 20px; left: 53%;
     color: #777777;
-    padding: 10px;
+   
     text-align: center;
-    border-bottom-style: solid;
-    border-bottom-color: #777777;
     text-decoration: none;
+    width: 5%;
+    height:20px;
 
 }
 
 #menu2{
-    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 60%;
+    position: absolute; top: 55px;right: 60%;bottom: 20px; left: 59%;
     color: #777777;
-    border-left-style: 2px, solid #777777;
-    padding:10px;
-    height: 6px;
-    border-right-style: 1px, solid #777777;
-    width: 7%;
+    width: 5%;
+    height:20px;
     text-decoration: none;
+    border-color: #ddd;
+    border-width: 2px;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-left: 15px;
+    padding-right: 5px;
+
     
 }
 #menu3{
     color: #777777;
-    position: absolute; top: 6%;right: 50%;bottom: 20px; left: 70%;
-    padding:10px;
+    position: absolute; top: 55px;right: 60%;bottom: 20px; left: 66%;
+    padding-left: 15px;
     text-decoration: none;
 }
 
 
 h2{
-    width: 930px;
+    width: 910px;
     height: 85px;
-    right: 1055px;
+    right: 1040px;
     bottom: 662px;
     margin-left:142px;
     margin-bottom: 0px;
@@ -83,7 +87,7 @@ h2{
     float: left;
     font-size: xx-large;
     padding-right: 0px;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 30px;
    
 }
@@ -96,23 +100,15 @@ p{
     height:600px; 
     border-top-style: solid;
     border-top-color: #ddd;
-    padding-top: 30px;
+    padding-top: 28px;
     z-index: 3;
     padding-left: 100px;
     margin-left: 50px;
     width: 750px;
     padding-right: 10px;
     margin-right: 50px;
-}
-
-footer{
-    color: #777777;
-    Background-color: #666666;
-    font-family: Arial, Helvetica, sans-serif;
-    position: fixed; bottom: 0px;right: 0px;left: 0;height: 20px;
-    text-align: center; padding: 20px;
-    z-index: 1;
-
+    line-height: 2.5;
+    font-size: larger; 
     
 }
 
@@ -135,8 +131,22 @@ footer{
 }
 
 #foto{
-    margin-left:30px;
+    margin-left:50px;
     float: left;
     padding-top: 10px;
-    margin-top: 0px;
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+footer{
+    color: #777777;
+    Background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed; bottom: 0px;right: 0px;left: 0;height: 20px;
+    text-align: center; padding: 20px;
+    z-index: 4;
+    border-top-style: solid;
+    border-top-color: teal;
+    border-top-width: 7px; 
 }
