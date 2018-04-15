@@ -122,13 +122,37 @@ footer{
     border-top-color: teal;
     border-top-width: 7px; 
 }
+
+#porto{
+    padding: 30px;
+    float: inherit;
+    padding-bottom: 0px;
+    padding-left: 60px;
+}
+
+#line1{
+    clear: both;
+    margin:0px;
+    padding: 0px;
+    width: 860px;
+    height: 3px;
+    color: rgb(106, 105, 105);
+    background-color: #ddd;
+    margin-left: 190px;
+    border:0px;
+    z-index: 2;
+    position: absolute;
+    
+}
+
 .grid-container {
     display: grid;
-    grid-gap: 30px 30px;
+    grid-gap: 10px 10px;
     grid-template-columns: auto auto auto;
     background-color: #fff;
-    padding: 10px;
+    padding-top: 40px;
     margin-left: 142px;
+    padding-left: 40px;
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
