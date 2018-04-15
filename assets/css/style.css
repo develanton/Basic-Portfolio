@@ -1,16 +1,13 @@
 body{ 
     margin-left: 0px;
-    background-image: url("/Users/Antonio/Basic-Portfolio/assets/images/dust_scratches.png");
-    
+    background-image: url("/Users/Antonio/Basic-Portfolio/assets/images/dust_scratches.png"); 
 }
-
 header{
     margin: 0px;
     padding-left: 10%;
     border-bottom-style: solid;
     border-bottom-color: #ddd;
-    background-color: #fff;
-    
+    background-color: #fff; 
 }
 h1{
    width: 30%;
@@ -29,16 +26,12 @@ h1{
 }
 section{
     position: absolute;
-    background-image: url("/Users/Antonio/Basic-Portfolio/assets/images/dust_scratches.png");
-    
+    background-image: url("/Users/Antonio/Basic-Portfolio/assets/images/dust_scratches.png");   
 }
-
-
 .miss1{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
-
 #menu1{
     position: absolute; top: 55px;right: 60%;bottom: 20px; left: 53%;
     color: #777777;
@@ -47,9 +40,7 @@ section{
     text-decoration: none;
     width: 5%;
     height:20px;
-
 }
-
 #menu2{
     position: absolute; top: 55px;right: 60%;bottom: 20px; left: 59%;
     color: #777777;
@@ -61,9 +52,7 @@ section{
     border-left-style: solid;
     border-right-style: solid;
     padding-left: 15px;
-    padding-right: 5px;
-
-    
+    padding-right: 5px;   
 }
 #menu3{
     color: #777777;
@@ -71,8 +60,6 @@ section{
     padding-left: 15px;
     text-decoration: none;
 }
-
-
 h2{
     width: 910px;
     height: 85px;
@@ -88,12 +75,9 @@ h2{
     font-size: xx-large;
     padding-right: 0px;
     padding-left: 50px;
-    padding-top: 30px;
-   
+    padding-top: 30px; 
 }
-
-p{
-    
+p{ 
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
     margin-top: 0px;
@@ -108,28 +92,16 @@ p{
     padding-right: 10px;
     margin-right: 50px;
     line-height: 2.5;
-    font-size: larger; 
-    
+    font-size: larger;    
 }
-
-#killa{
-
-    
+#killa{  
     background-color: #ffffff;
     z-index: 1;
-   
-    
-    
-
 }
-
 #selec{
     margin: 142px;
-    background: #fff;
-
-    
+    background: #fff; 
 }
-
 #foto{
     margin-left:50px;
     float: left;
@@ -138,7 +110,6 @@ p{
     padding-right: 30px;
     padding-bottom: 20px;
 }
-
 footer{
     color: #777777;
     Background-color: #666666;
@@ -149,4 +120,29 @@ footer{
     border-top-style: solid;
     border-top-color: teal;
     border-top-width: 7px; 
+}
+.grid-container {
+    display: grid;
+    grid-gap: 30px 30px;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 142px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding:    0px;
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 220px;
+    margin-left: 20px;
+    position: relative
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
